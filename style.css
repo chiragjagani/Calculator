@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    margin-top: 7%;
+    background: linear-gradient(to bottom, #8e9eab, #eef2f3); /* subtle gradient from a cool gray to a lighter shade */
+    border: 1px solid rgb(187, 183, 183);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), /* Simulates depth */
+                 0 6px 6px rgba(0, 0, 0, 0.25); /* Softens the shadow at the bottom */
+    border-radius: 5px;
+    width: 260px;
+    height: 520px;
+}
+
+#display{
+    margin:10px;
+    width: 85%;
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 10px;
+    text-align: right;
+    border: none;
+    background: #f8f8f8; /* Light gray background */
+    color: #333; /* Darker text for contrast */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.btn{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+    background: #4a90e2; /* Soft blue */
+    color: white; /* White text for better readability */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */   
+}
+.btn:hover {
+    background: #357ABD; /* Slightly darker blue on hover */
+}
